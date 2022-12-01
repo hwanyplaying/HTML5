@@ -1,6 +1,10 @@
 @import url(./normalize.css);
 @import url(./reset.css);
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   background: yellow;
   font-family: "Pretendard Variable", Pretendard, -apple-system,
@@ -29,12 +33,32 @@ body {
 /* main */
 .main {
   background: #5e2f9e;
-  height: 50vh;
+  /* height: 50vh; */
+  overflow: hidden;
 }
+
+.group {
+  float: left;
+}
+
+.group1 {
+  width: 250px;
+  background-color: aquamarine;
+}
+.group2 {
+  width: 380px;
+  background-color: burlywood;
+}
+.group3 {
+  width: 190px;
+  background-color: lemonchiffon;
+}
+
 /* slogan */
 .slogan {
   background: #525252;
   height: 10vh;
+  clear: both;
 }
 /* footer */
 .footer {
