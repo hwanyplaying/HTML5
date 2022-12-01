@@ -3,26 +3,45 @@
 
 body {
   background: yellow;
-  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
-    "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
-    "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    sans-serif;
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+  BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+  "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
+
+.header, .visual, .main, .slogan, .footer-inner {
+  width: 940px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+/* header */
 .header {
   background: pink;
+  height: 15vh;
+  padding: 0px 30px;
 }
+/* visual */
 .visual {
   background: #573026;
+  height: 10vh;
 }
+/* main */
 .main {
   background: #5e2f9e;
+  height: 50vh;
 }
+/* slogan */
 .slogan {
   background: #525252;
+  height: 10vh;
 }
+/* footer */
 .footer {
   background: #742e3F;
 }
-.footer-inner {
 
+.footer-inner {
+  background: lightblue;
+  height: 15vh;
 }
