@@ -1,1 +1,24 @@
-/* CSS 스타일 */
+@import url(./normalize.css);
+@import url(./reset.css);
+
+body {
+  background: yellow;
+}
+.header {
+  background: pink;
+}
+.visual {
+  background: #573026;
+}
+.main {
+  background: #5e2f9e;
+}
+.slogan {
+  background: #525252;
+}
+.footer {
+  background: #742e3F;
+}
+.footer-inner {
+
+}
