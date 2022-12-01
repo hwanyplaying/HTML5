@@ -33,11 +33,13 @@ body {
 /* main */
 .main {
   background: #5e2f9e;
-  /* height: 50vh; */
-  overflow: hidden;
+  height: 50vh;
+  display: flow-root;
+  padding: 0 15px;
 }
 
 .group {
+  margin: 0 15px;
   float: left;
 }
 
