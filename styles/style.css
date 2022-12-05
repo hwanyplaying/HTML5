@@ -6,9 +6,20 @@
 *, *::before, *::after{
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:visited {
+  color: #212121;
+}
+
 /* 본문 스타일 */
 body {
-  background: #ffc;
+  color: 212121;
+  background: #ccc;
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 /* 레이아웃 */
