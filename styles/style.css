@@ -1,5 +1,6 @@
 @import url(./normalize.css);
 @import url(./reset.css);
+@import url(./fontello.css);
 
 /* 기본 스타일 */
 *, *::before, *::after{
@@ -33,13 +34,13 @@ body {
 /* ::before →  first child*/
 /* ::after → last-child  */
 
-.member li::before {
+/* .member li::before {
   content: ":";
 }
 
 .first::before {
   content: "" !important;
-}
+} */
 
 /* .member li:first-child::before {
   content: "";
