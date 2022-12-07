@@ -3,6 +3,7 @@
 
 # Text
 *.txt
+
 ### Node ###
 # Logs
 logs
