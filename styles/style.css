@@ -93,6 +93,12 @@ body {
   padding-bottom: 40px;
 }
 
+/* .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+} */
 
 .menu {
   border-top: 2px solid currentColor;
