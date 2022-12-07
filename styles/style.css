@@ -41,6 +41,13 @@ body {
   padding: 0 30px;
   height: 15vh;
   border-radius: 0 0 15px 15px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 45px;
+  left: 60px;
 }
 
 .member {
@@ -80,6 +87,10 @@ body {
 .member a {
   text-transform: uppercase;
 }
+
+/* .navigation {
+
+} */
 
 /* 비주얼 */
 .visual {
