@@ -306,6 +306,8 @@ body {
 .login-title {
   font-size: 16px;
   color: #ff0;
+  text-indent: 10px;
+  font-weight: 700;
 }
 
 .login-form {
@@ -322,14 +324,14 @@ body {
   padding-bottom: 4px;
 }
 
+.user-email, .user-pw {
+  margin-bottom: 6px;
+}
+
 .user-email label, .user-pw label {
   width: 56px;
   padding: 3px 0;
   float: left;
-}
-
-.user-email, .user-pw {
-  margin-bottom: 6px;
 }
 
 #userEmail, #userPw {
@@ -365,6 +367,24 @@ body {
 
 .sign li:last-child {
   float: right;
+}
+
+.sign a::before {
+  content: "\e804";
+  font-family: "fontello";
+  font-weight: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: 0.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ef9126;
 }
 
 /* 슬로건 */
